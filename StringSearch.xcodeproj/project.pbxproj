@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3FCC722528A17C003F32BF /* SearchStringResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC712528A17C003F32BF /* SearchStringResult.m */; };
+		CF3FCC732528A17C003F32BF /* SearchStringResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC712528A17C003F32BF /* SearchStringResult.m */; };
+		CF3FCC742528A17C003F32BF /* SearchStringResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC712528A17C003F32BF /* SearchStringResult.m */; };
+		CF3FCC792528A286003F32BF /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC782528A286003F32BF /* FileUtil.m */; };
+		CF3FCC7A2528A286003F32BF /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC782528A286003F32BF /* FileUtil.m */; };
+		CF3FCC7B2528A286003F32BF /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC782528A286003F32BF /* FileUtil.m */; };
+		CF3FCC7F2528ACCB003F32BF /* FileHandlingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC7E2528ACCB003F32BF /* FileHandlingManager.m */; };
+		CF3FCC802528ACCB003F32BF /* FileHandlingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC7E2528ACCB003F32BF /* FileHandlingManager.m */; };
+		CF3FCC812528ACCB003F32BF /* FileHandlingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC7E2528ACCB003F32BF /* FileHandlingManager.m */; };
+		CF3FCC842528AF92003F32BF /* FileTypeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC832528AF92003F32BF /* FileTypeHandler.m */; };
+		CF3FCC852528AF92003F32BF /* FileTypeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC832528AF92003F32BF /* FileTypeHandler.m */; };
+		CF3FCC862528AF92003F32BF /* FileTypeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC832528AF92003F32BF /* FileTypeHandler.m */; };
+		CF3FCC8A2528B1BC003F32BF /* TextFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC892528B1BC003F32BF /* TextFileHandler.m */; };
+		CF3FCC8B2528B1BC003F32BF /* TextFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC892528B1BC003F32BF /* TextFileHandler.m */; };
+		CF3FCC8C2528B1BC003F32BF /* TextFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC892528B1BC003F32BF /* TextFileHandler.m */; };
+		CF3FCC8F2528C34D003F32BF /* FileHandleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC8D2528C34D003F32BF /* FileHandleOperation.m */; };
+		CF3FCC902528C34D003F32BF /* FileHandleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC8D2528C34D003F32BF /* FileHandleOperation.m */; };
+		CF3FCC912528C34D003F32BF /* FileHandleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC8D2528C34D003F32BF /* FileHandleOperation.m */; };
+		CF3FCC942528CCFD003F32BF /* RtfFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC932528CCFD003F32BF /* RtfFileHandler.m */; };
+		CF3FCC952528CCFD003F32BF /* RtfFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC932528CCFD003F32BF /* RtfFileHandler.m */; };
+		CF3FCC962528CCFD003F32BF /* RtfFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC932528CCFD003F32BF /* RtfFileHandler.m */; };
+		CF3FCC9D2528D82D003F32BF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3FCC982528D3A8003F32BF /* AppKit.framework */; };
+		CF43A1F2252804EB00DB8B9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF43A1F1252804EB00DB8B9D /* AppDelegate.m */; };
+		CF43A1F5252804EB00DB8B9D /* StringSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF43A1F3252804EB00DB8B9D /* StringSearch.xcdatamodeld */; };
+		CF43A1F7252804F400DB8B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF43A1F6252804F400DB8B9D /* Assets.xcassets */; };
+		CF43A1FA252804F400DB8B9D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF43A1F8252804F400DB8B9D /* MainMenu.xib */; };
+		CF43A1FD252804F400DB8B9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF43A1FC252804F400DB8B9D /* main.m */; };
+		CF43A208252804F400DB8B9D /* StringSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF43A207252804F400DB8B9D /* StringSearchTests.m */; };
+		CF43A213252804F400DB8B9D /* StringSearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF43A212252804F400DB8B9D /* StringSearchUITests.m */; };
+		CF43A22325280B0F00DB8B9D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF43A22125280B0F00DB8B9D /* MainViewController.m */; };
+		CF43A22425280B0F00DB8B9D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF43A22225280B0F00DB8B9D /* MainViewController.xib */; };
+		CFF600A52528FE28005A24FD /* DocxFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF600A32528FE28005A24FD /* DocxFileHandler.m */; };
+		CFF600A82529084B005A24FD /* DocFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF600A62529084B005A24FD /* DocFileHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF43A204252804F400DB8B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF43A1E5252804EB00DB8B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF43A1EC252804EB00DB8B9D;
+			remoteInfo = StringSearch;
+		};
+		CF43A20F252804F400DB8B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF43A1E5252804EB00DB8B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF43A1EC252804EB00DB8B9D;
+			remoteInfo = StringSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF3FCC702528A15A003F32BF /* SearchStringResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchStringResult.h; sourceTree = "<group>"; };
+		CF3FCC712528A17C003F32BF /* SearchStringResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchStringResult.m; sourceTree = "<group>"; };
+		CF3FCC772528A286003F32BF /* FileUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		CF3FCC782528A286003F32BF /* FileUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
+		CF3FCC7D2528ACCB003F32BF /* FileHandlingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileHandlingManager.h; sourceTree = "<group>"; };
+		CF3FCC7E2528ACCB003F32BF /* FileHandlingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileHandlingManager.m; sourceTree = "<group>"; };
+		CF3FCC822528AF92003F32BF /* FileTypeHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileTypeHandler.h; sourceTree = "<group>"; };
+		CF3FCC832528AF92003F32BF /* FileTypeHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileTypeHandler.m; sourceTree = "<group>"; };
+		CF3FCC882528B1BC003F32BF /* TextFileHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFileHandler.h; sourceTree = "<group>"; };
+		CF3FCC892528B1BC003F32BF /* TextFileHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFileHandler.m; sourceTree = "<group>"; };
+		CF3FCC8D2528C34D003F32BF /* FileHandleOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHandleOperation.m; sourceTree = "<group>"; };
+		CF3FCC8E2528C34D003F32BF /* FileHandleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHandleOperation.h; sourceTree = "<group>"; };
+		CF3FCC922528CCFD003F32BF /* RtfFileHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RtfFileHandler.h; sourceTree = "<group>"; };
+		CF3FCC932528CCFD003F32BF /* RtfFileHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RtfFileHandler.m; sourceTree = "<group>"; };
+		CF3FCC982528D3A8003F32BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CF43A1ED252804EB00DB8B9D /* StringSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StringSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF43A1F0252804EB00DB8B9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF43A1F1252804EB00DB8B9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF43A1F4252804EB00DB8B9D /* StringSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StringSearch.xcdatamodel; sourceTree = "<group>"; };
+		CF43A1F6252804F400DB8B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF43A1F9252804F400DB8B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CF43A1FB252804F400DB8B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF43A1FC252804F400DB8B9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF43A1FE252804F400DB8B9D /* StringSearch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StringSearch.entitlements; sourceTree = "<group>"; };
+		CF43A203252804F400DB8B9D /* StringSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF43A207252804F400DB8B9D /* StringSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringSearchTests.m; sourceTree = "<group>"; };
+		CF43A209252804F400DB8B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF43A20E252804F400DB8B9D /* StringSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF43A212252804F400DB8B9D /* StringSearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringSearchUITests.m; sourceTree = "<group>"; };
+		CF43A214252804F400DB8B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF43A22025280B0F00DB8B9D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CF43A22125280B0F00DB8B9D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CF43A22225280B0F00DB8B9D /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		CFF600A32528FE28005A24FD /* DocxFileHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocxFileHandler.m; sourceTree = "<group>"; };
+		CFF600A42528FE28005A24FD /* DocxFileHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocxFileHandler.h; sourceTree = "<group>"; };
+		CFF600A62529084B005A24FD /* DocFileHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocFileHandler.m; sourceTree = "<group>"; };
+		CFF600A72529084B005A24FD /* DocFileHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocFileHandler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF43A1EA252804EB00DB8B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3FCC9D2528D82D003F32BF /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43A200252804F400DB8B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43A20B252804F400DB8B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3FCC6F2528A11C003F32BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF3FCC702528A15A003F32BF /* SearchStringResult.h */,
+				CF3FCC712528A17C003F32BF /* SearchStringResult.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF3FCC752528A1C3003F32BF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CF3FCC872528B19A003F32BF /* FileType */,
+				CF3FCC772528A286003F32BF /* FileUtil.h */,
+				CF3FCC782528A286003F32BF /* FileUtil.m */,
+				CF3FCC7D2528ACCB003F32BF /* FileHandlingManager.h */,
+				CF3FCC7E2528ACCB003F32BF /* FileHandlingManager.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CF3FCC762528A1D9003F32BF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF43A22025280B0F00DB8B9D /* MainViewController.h */,
+				CF43A22125280B0F00DB8B9D /* MainViewController.m */,
+				CF43A22225280B0F00DB8B9D /* MainViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CF3FCC872528B19A003F32BF /* FileType */ = {
+			isa = PBXGroup;
+			children = (
+				CFF600A72529084B005A24FD /* DocFileHandler.h */,
+				CFF600A62529084B005A24FD /* DocFileHandler.m */,
+				CFF600A42528FE28005A24FD /* DocxFileHandler.h */,
+				CFF600A32528FE28005A24FD /* DocxFileHandler.m */,
+				CF3FCC8E2528C34D003F32BF /* FileHandleOperation.h */,
+				CF3FCC8D2528C34D003F32BF /* FileHandleOperation.m */,
+				CF3FCC822528AF92003F32BF /* FileTypeHandler.h */,
+				CF3FCC832528AF92003F32BF /* FileTypeHandler.m */,
+				CF3FCC882528B1BC003F32BF /* TextFileHandler.h */,
+				CF3FCC892528B1BC003F32BF /* TextFileHandler.m */,
+				CF3FCC922528CCFD003F32BF /* RtfFileHandler.h */,
+				CF3FCC932528CCFD003F32BF /* RtfFileHandler.m */,
+			);
+			path = FileType;
+			sourceTree = "<group>";
+		};
+		CF3FCC972528D3A8003F32BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3FCC982528D3A8003F32BF /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF43A1E4252804EB00DB8B9D = {
+			isa = PBXGroup;
+			children = (
+				CF43A1EF252804EB00DB8B9D /* StringSearch */,
+				CF43A206252804F400DB8B9D /* StringSearchTests */,
+				CF43A211252804F400DB8B9D /* StringSearchUITests */,
+				CF43A1EE252804EB00DB8B9D /* Products */,
+				CF3FCC972528D3A8003F32BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF43A1EE252804EB00DB8B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF43A1ED252804EB00DB8B9D /* StringSearch.app */,
+				CF43A203252804F400DB8B9D /* StringSearchTests.xctest */,
+				CF43A20E252804F400DB8B9D /* StringSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF43A1EF252804EB00DB8B9D /* StringSearch */ = {
+			isa = PBXGroup;
+			children = (
+				CF3FCC762528A1D9003F32BF /* ViewControllers */,
+				CF3FCC752528A1C3003F32BF /* Utilities */,
+				CF3FCC6F2528A11C003F32BF /* Models */,
+				CF43A1F0252804EB00DB8B9D /* AppDelegate.h */,
+				CF43A1F1252804EB00DB8B9D /* AppDelegate.m */,
+				CF43A1F6252804F400DB8B9D /* Assets.xcassets */,
+				CF43A1F8252804F400DB8B9D /* MainMenu.xib */,
+				CF43A1FB252804F400DB8B9D /* Info.plist */,
+				CF43A1FC252804F400DB8B9D /* main.m */,
+				CF43A1FE252804F400DB8B9D /* StringSearch.entitlements */,
+				CF43A1F3252804EB00DB8B9D /* StringSearch.xcdatamodeld */,
+			);
+			path = StringSearch;
+			sourceTree = "<group>";
+		};
+		CF43A206252804F400DB8B9D /* StringSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF43A207252804F400DB8B9D /* StringSearchTests.m */,
+				CF43A209252804F400DB8B9D /* Info.plist */,
+			);
+			path = StringSearchTests;
+			sourceTree = "<group>";
+		};
+		CF43A211252804F400DB8B9D /* StringSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF43A212252804F400DB8B9D /* StringSearchUITests.m */,
+				CF43A214252804F400DB8B9D /* Info.plist */,
+			);
+			path = StringSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF43A1EC252804EB00DB8B9D /* StringSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF43A217252804F400DB8B9D /* Build configuration list for PBXNativeTarget "StringSearch" */;
+			buildPhases = (
+				CF43A1E9252804EB00DB8B9D /* Sources */,
+				CF43A1EA252804EB00DB8B9D /* Frameworks */,
+				CF43A1EB252804EB00DB8B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StringSearch;
+			productName = StringSearch;
+			productReference = CF43A1ED252804EB00DB8B9D /* StringSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF43A202252804F400DB8B9D /* StringSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF43A21A252804F400DB8B9D /* Build configuration list for PBXNativeTarget "StringSearchTests" */;
+			buildPhases = (
+				CF43A1FF252804F400DB8B9D /* Sources */,
+				CF43A200252804F400DB8B9D /* Frameworks */,
+				CF43A201252804F400DB8B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF43A205252804F400DB8B9D /* PBXTargetDependency */,
+			);
+			name = StringSearchTests;
+			productName = StringSearchTests;
+			productReference = CF43A203252804F400DB8B9D /* StringSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF43A20D252804F400DB8B9D /* StringSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF43A21D252804F400DB8B9D /* Build configuration list for PBXNativeTarget "StringSearchUITests" */;
+			buildPhases = (
+				CF43A20A252804F400DB8B9D /* Sources */,
+				CF43A20B252804F400DB8B9D /* Frameworks */,
+				CF43A20C252804F400DB8B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF43A210252804F400DB8B9D /* PBXTargetDependency */,
+			);
+			name = StringSearchUITests;
+			productName = StringSearchUITests;
+			productReference = CF43A20E252804F400DB8B9D /* StringSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF43A1E5252804EB00DB8B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Satyam Raikar";
+				TargetAttributes = {
+					CF43A1EC252804EB00DB8B9D = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					CF43A202252804F400DB8B9D = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = CF43A1EC252804EB00DB8B9D;
+					};
+					CF43A20D252804F400DB8B9D = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = CF43A1EC252804EB00DB8B9D;
+					};
+				};
+			};
+			buildConfigurationList = CF43A1E8252804EB00DB8B9D /* Build configuration list for PBXProject "StringSearch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF43A1E4252804EB00DB8B9D;
+			productRefGroup = CF43A1EE252804EB00DB8B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF43A1EC252804EB00DB8B9D /* StringSearch */,
+				CF43A202252804F400DB8B9D /* StringSearchTests */,
+				CF43A20D252804F400DB8B9D /* StringSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF43A1EB252804EB00DB8B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF43A1F7252804F400DB8B9D /* Assets.xcassets in Resources */,
+				CF43A22425280B0F00DB8B9D /* MainViewController.xib in Resources */,
+				CF43A1FA252804F400DB8B9D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43A201252804F400DB8B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43A20C252804F400DB8B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF43A1E9252804EB00DB8B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF43A1F5252804EB00DB8B9D /* StringSearch.xcdatamodeld in Sources */,
+				CF43A1FD252804F400DB8B9D /* main.m in Sources */,
+				CF43A1F2252804EB00DB8B9D /* AppDelegate.m in Sources */,
+				CF3FCC792528A286003F32BF /* FileUtil.m in Sources */,
+				CF3FCC942528CCFD003F32BF /* RtfFileHandler.m in Sources */,
+				CFF600A52528FE28005A24FD /* DocxFileHandler.m in Sources */,
+				CF3FCC842528AF92003F32BF /* FileTypeHandler.m in Sources */,
+				CF3FCC722528A17C003F32BF /* SearchStringResult.m in Sources */,
+				CF3FCC8F2528C34D003F32BF /* FileHandleOperation.m in Sources */,
+				CFF600A82529084B005A24FD /* DocFileHandler.m in Sources */,
+				CF43A22325280B0F00DB8B9D /* MainViewController.m in Sources */,
+				CF3FCC8A2528B1BC003F32BF /* TextFileHandler.m in Sources */,
+				CF3FCC7F2528ACCB003F32BF /* FileHandlingManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43A1FF252804F400DB8B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3FCC802528ACCB003F32BF /* FileHandlingManager.m in Sources */,
+				CF3FCC8B2528B1BC003F32BF /* TextFileHandler.m in Sources */,
+				CF3FCC902528C34D003F32BF /* FileHandleOperation.m in Sources */,
+				CF3FCC852528AF92003F32BF /* FileTypeHandler.m in Sources */,
+				CF3FCC7A2528A286003F32BF /* FileUtil.m in Sources */,
+				CF43A208252804F400DB8B9D /* StringSearchTests.m in Sources */,
+				CF3FCC732528A17C003F32BF /* SearchStringResult.m in Sources */,
+				CF3FCC952528CCFD003F32BF /* RtfFileHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43A20A252804F400DB8B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3FCC812528ACCB003F32BF /* FileHandlingManager.m in Sources */,
+				CF3FCC8C2528B1BC003F32BF /* TextFileHandler.m in Sources */,
+				CF3FCC912528C34D003F32BF /* FileHandleOperation.m in Sources */,
+				CF3FCC862528AF92003F32BF /* FileTypeHandler.m in Sources */,
+				CF3FCC7B2528A286003F32BF /* FileUtil.m in Sources */,
+				CF43A213252804F400DB8B9D /* StringSearchUITests.m in Sources */,
+				CF3FCC742528A17C003F32BF /* SearchStringResult.m in Sources */,
+				CF3FCC962528CCFD003F32BF /* RtfFileHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF43A205252804F400DB8B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF43A1EC252804EB00DB8B9D /* StringSearch */;
+			targetProxy = CF43A204252804F400DB8B9D /* PBXContainerItemProxy */;
+		};
+		CF43A210252804F400DB8B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF43A1EC252804EB00DB8B9D /* StringSearch */;
+			targetProxy = CF43A20F252804F400DB8B9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF43A1F8252804F400DB8B9D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF43A1F9252804F400DB8B9D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF43A215252804F400DB8B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF43A216252804F400DB8B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF43A218252804F400DB8B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StringSearch/StringSearch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StringSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdt.stringsearch.StringSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF43A219252804F400DB8B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StringSearch/StringSearch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StringSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdt.stringsearch.StringSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF43A21B252804F400DB8B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StringSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdt.stringsearch.StringSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StringSearch.app/Contents/MacOS/StringSearch";
+			};
+			name = Debug;
+		};
+		CF43A21C252804F400DB8B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StringSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdt.stringsearch.StringSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StringSearch.app/Contents/MacOS/StringSearch";
+			};
+			name = Release;
+		};
+		CF43A21E252804F400DB8B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StringSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdt.stringsearch.StringSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StringSearch;
+			};
+			name = Debug;
+		};
+		CF43A21F252804F400DB8B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StringSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdt.stringsearch.StringSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StringSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF43A1E8252804EB00DB8B9D /* Build configuration list for PBXProject "StringSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF43A215252804F400DB8B9D /* Debug */,
+				CF43A216252804F400DB8B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF43A217252804F400DB8B9D /* Build configuration list for PBXNativeTarget "StringSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF43A218252804F400DB8B9D /* Debug */,
+				CF43A219252804F400DB8B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF43A21A252804F400DB8B9D /* Build configuration list for PBXNativeTarget "StringSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF43A21B252804F400DB8B9D /* Debug */,
+				CF43A21C252804F400DB8B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF43A21D252804F400DB8B9D /* Build configuration list for PBXNativeTarget "StringSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF43A21E252804F400DB8B9D /* Debug */,
+				CF43A21F252804F400DB8B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF43A1F3252804EB00DB8B9D /* StringSearch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF43A1F4252804EB00DB8B9D /* StringSearch.xcdatamodel */,
+			);
+			currentVersion = CF43A1F4252804EB00DB8B9D /* StringSearch.xcdatamodel */;
+			path = StringSearch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF43A1E5252804EB00DB8B9D /* Project object */;
+}
