@@ -1,4 +1,4 @@
-# SearchString
+# Search String
 Mac OS app to find Search string occurrences in files
 
 
