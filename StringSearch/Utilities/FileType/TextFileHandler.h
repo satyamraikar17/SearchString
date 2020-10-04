@@ -1,5 +1,6 @@
 //
 //  TextFileHandler.h
+//  Used to count the occurrence of search string in plain text files
 //  StringSearch
 //
 //  Created by Satyam Raikar on 03/10/20.
@@ -16,7 +17,19 @@ NS_ASSUME_NONNULL_BEGIN
 @property(atomic, strong) SearchStringResult *result;
 
 -(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString;
+
+/*!
+   @brief Used to count the occurrence of search string in plain text files
+
+   @return SearchStringResult  result containing occurrence of search string count
+*/
 -(SearchStringResult *)occurrence:(NSError**)error;
+
+/*!
+   @brief Used to get extension of a text file
+ 
+   @return NSString  extension of text file ex: @"txt"
+*/
 +(NSString *) getExtention;
 
 @end

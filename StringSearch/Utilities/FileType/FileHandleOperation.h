@@ -1,5 +1,6 @@
 //
 //  FileHandleOperation.h
+//  Provides multi threading support for FileHandler class operations
 //  StringSearch
 //
 //  Created by Satyam Raikar on 03/10/20.
