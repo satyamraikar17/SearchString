@@ -14,6 +14,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol FileTypeHandleProtocol
+@optional
+    -(void)updateSearchString:(NSString *)searchString;
 @required
     -(SearchStringData *)occurrence:(NSError**)error;
     -(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString;
