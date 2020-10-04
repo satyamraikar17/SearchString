@@ -1,5 +1,5 @@
 # SearchString
-Mac OS app to search string occurrences in files
+Mac OS app to find Search string occurrences in files
 
 
 Simple Mac OS app to select a folder and iteratre through supported files to find occurrences of given search string in those files.
@@ -16,3 +16,6 @@ Result will be shown in tablular format.
 
 
 Note: Current version supports DocX, Doc(WebArchived), RTF and Txt files only.
+
+
+![Example](uml.svg)
