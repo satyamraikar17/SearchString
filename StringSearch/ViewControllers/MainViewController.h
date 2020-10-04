@@ -1,6 +1,6 @@
 //
 //  MainViewController.h
-//  ViewController containing userinterface for user inputs to browse a folder and display results
+//  ViewController containing userinterface to browse a folder and display results
 //  StringSearch
 //
 //  Created by Satyam Raikar on 02/10/20.
@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, strong) NSMutableArray *results;
 
 /*!
-   @brief Manager class to perform multiple operations to help count the occurrence of search string in files
+   @brief Manager class to perform multiple operations and count the occurrence of search string in files
 */
 @property(nonatomic, strong) FileHandlingManager *fileManager;
 
