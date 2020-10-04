@@ -10,11 +10,11 @@
 #import "FileHandleOperation.h"
 
 @implementation FileHandleOperation {
-    typeof  (void (^)(SearchStringResult *, NSError **))callBack1;
+    typeof  (void (^)(SearchStringData *, NSError **))callBack1;
     int try;
 }
 
--(id)initWithFileHandler:(FileTypeHandler *)fileHandler error:(NSError **)error callBack:(void (^)(SearchStringResult *result, NSError **))callBack {
+-(id)initWithFileHandler:(FileTypeHandler *)fileHandler error:(NSError **)error callBack:(void (^)(SearchStringData *result, NSError **))callBack {
     self = [super init];
     if (self) {
         callBack1 = [callBack copy];
@@ -40,7 +40,7 @@
         }
      });
     
-    SearchStringResult * result = [self.fileHandler occurrence:self.error];
+    SearchStringData * result = [self.fileHandler occurrence:self.error];
 
     callBack1(result, self.error);
     

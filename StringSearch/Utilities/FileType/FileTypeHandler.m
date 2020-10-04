@@ -47,7 +47,7 @@
     return self;
 }
 
--(SearchStringResult *)occurrence:(NSError**)error {
+-(SearchStringData *)occurrence:(NSError**)error {
     [NSException raise:NSInternalInconsistencyException
                 format:@"You have not implemented %@ in %@", NSStringFromSelector(_cmd), NSStringFromClass([self class])];
     return nil;
@@ -59,7 +59,7 @@
     return nil;
 }
 
--(NSString *)countSearchString:(SearchStringResult *)dataHolder options:(NSDictionary *)options error:(NSError **)error {
+-(NSString *)countSearchString:(SearchStringData *)dataHolder options:(NSDictionary *)options error:(NSError **)error {
      NSData *data = [NSData dataWithContentsOfFile:dataHolder.searchFilePath];
 
         NSAttributedString *attributedContent = [[NSAttributedString alloc] initWithData:data options:options documentAttributes:nil error:error];

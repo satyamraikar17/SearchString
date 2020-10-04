@@ -19,7 +19,7 @@
 
 - (void)finish;
 
-- (id)initWithFileHandler:(FileTypeHandler *)fileHandler error:(NSError **)error callBack:(void (^)(SearchStringResult *result, NSError ** error))callBack;
+- (id)initWithFileHandler:(FileTypeHandler *)fileHandler error:(NSError **)error callBack:(void (^)(SearchStringData *result, NSError ** error))callBack;
 
 @end
  

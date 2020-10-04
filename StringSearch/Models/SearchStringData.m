@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SearchStringResult.h"
+#import "SearchStringData.h"
 
-@implementation SearchStringResult
+@implementation SearchStringData
 
 -(instancetype)initWithFilePath:(NSString *)searchFilePath occurrences:(NSString *)count searchString:(NSString *)searchString {
     

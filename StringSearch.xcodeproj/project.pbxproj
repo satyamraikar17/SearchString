@@ -7,27 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF3FCC722528A17C003F32BF /* SearchStringResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC712528A17C003F32BF /* SearchStringResult.m */; };
-		CF3FCC732528A17C003F32BF /* SearchStringResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC712528A17C003F32BF /* SearchStringResult.m */; };
-		CF3FCC742528A17C003F32BF /* SearchStringResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC712528A17C003F32BF /* SearchStringResult.m */; };
+		CF0646F6252A476200D4ABFA /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF0646F5252A476100D4ABFA /* test.txt */; };
+		CF3FCC722528A17C003F32BF /* SearchStringData.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC712528A17C003F32BF /* SearchStringData.m */; };
+		CF3FCC732528A17C003F32BF /* SearchStringData.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC712528A17C003F32BF /* SearchStringData.m */; };
 		CF3FCC792528A286003F32BF /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC782528A286003F32BF /* FileUtil.m */; };
 		CF3FCC7A2528A286003F32BF /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC782528A286003F32BF /* FileUtil.m */; };
-		CF3FCC7B2528A286003F32BF /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC782528A286003F32BF /* FileUtil.m */; };
 		CF3FCC7F2528ACCB003F32BF /* FileHandlingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC7E2528ACCB003F32BF /* FileHandlingManager.m */; };
 		CF3FCC802528ACCB003F32BF /* FileHandlingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC7E2528ACCB003F32BF /* FileHandlingManager.m */; };
-		CF3FCC812528ACCB003F32BF /* FileHandlingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC7E2528ACCB003F32BF /* FileHandlingManager.m */; };
 		CF3FCC842528AF92003F32BF /* FileTypeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC832528AF92003F32BF /* FileTypeHandler.m */; };
 		CF3FCC852528AF92003F32BF /* FileTypeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC832528AF92003F32BF /* FileTypeHandler.m */; };
-		CF3FCC862528AF92003F32BF /* FileTypeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC832528AF92003F32BF /* FileTypeHandler.m */; };
 		CF3FCC8A2528B1BC003F32BF /* TextFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC892528B1BC003F32BF /* TextFileHandler.m */; };
 		CF3FCC8B2528B1BC003F32BF /* TextFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC892528B1BC003F32BF /* TextFileHandler.m */; };
-		CF3FCC8C2528B1BC003F32BF /* TextFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC892528B1BC003F32BF /* TextFileHandler.m */; };
 		CF3FCC8F2528C34D003F32BF /* FileHandleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC8D2528C34D003F32BF /* FileHandleOperation.m */; };
 		CF3FCC902528C34D003F32BF /* FileHandleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC8D2528C34D003F32BF /* FileHandleOperation.m */; };
-		CF3FCC912528C34D003F32BF /* FileHandleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC8D2528C34D003F32BF /* FileHandleOperation.m */; };
 		CF3FCC942528CCFD003F32BF /* RtfFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC932528CCFD003F32BF /* RtfFileHandler.m */; };
 		CF3FCC952528CCFD003F32BF /* RtfFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC932528CCFD003F32BF /* RtfFileHandler.m */; };
-		CF3FCC962528CCFD003F32BF /* RtfFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FCC932528CCFD003F32BF /* RtfFileHandler.m */; };
 		CF3FCC9D2528D82D003F32BF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3FCC982528D3A8003F32BF /* AppKit.framework */; };
 		CF43A1F2252804EB00DB8B9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF43A1F1252804EB00DB8B9D /* AppDelegate.m */; };
 		CF43A1F5252804EB00DB8B9D /* StringSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF43A1F3252804EB00DB8B9D /* StringSearch.xcdatamodeld */; };
@@ -35,7 +29,6 @@
 		CF43A1FA252804F400DB8B9D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF43A1F8252804F400DB8B9D /* MainMenu.xib */; };
 		CF43A1FD252804F400DB8B9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF43A1FC252804F400DB8B9D /* main.m */; };
 		CF43A208252804F400DB8B9D /* StringSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF43A207252804F400DB8B9D /* StringSearchTests.m */; };
-		CF43A213252804F400DB8B9D /* StringSearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF43A212252804F400DB8B9D /* StringSearchUITests.m */; };
 		CF43A22325280B0F00DB8B9D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF43A22125280B0F00DB8B9D /* MainViewController.m */; };
 		CF43A22425280B0F00DB8B9D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF43A22225280B0F00DB8B9D /* MainViewController.xib */; };
 		CFF600A52528FE28005A24FD /* DocxFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF600A32528FE28005A24FD /* DocxFileHandler.m */; };
@@ -50,18 +43,12 @@
 			remoteGlobalIDString = CF43A1EC252804EB00DB8B9D;
 			remoteInfo = StringSearch;
 		};
-		CF43A20F252804F400DB8B9D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CF43A1E5252804EB00DB8B9D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF43A1EC252804EB00DB8B9D;
-			remoteInfo = StringSearch;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CF3FCC702528A15A003F32BF /* SearchStringResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchStringResult.h; sourceTree = "<group>"; };
-		CF3FCC712528A17C003F32BF /* SearchStringResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchStringResult.m; sourceTree = "<group>"; };
+		CF0646F5252A476100D4ABFA /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		CF3FCC702528A15A003F32BF /* SearchStringData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchStringData.h; sourceTree = "<group>"; };
+		CF3FCC712528A17C003F32BF /* SearchStringData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchStringData.m; sourceTree = "<group>"; };
 		CF3FCC772528A286003F32BF /* FileUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
 		CF3FCC782528A286003F32BF /* FileUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
 		CF3FCC7D2528ACCB003F32BF /* FileHandlingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileHandlingManager.h; sourceTree = "<group>"; };
@@ -87,7 +74,6 @@
 		CF43A203252804F400DB8B9D /* StringSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF43A207252804F400DB8B9D /* StringSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringSearchTests.m; sourceTree = "<group>"; };
 		CF43A209252804F400DB8B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF43A20E252804F400DB8B9D /* StringSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF43A212252804F400DB8B9D /* StringSearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringSearchUITests.m; sourceTree = "<group>"; };
 		CF43A214252804F400DB8B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF43A22025280B0F00DB8B9D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -115,21 +101,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF43A20B252804F400DB8B9D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		CF3FCC6F2528A11C003F32BF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CF3FCC702528A15A003F32BF /* SearchStringResult.h */,
-				CF3FCC712528A17C003F32BF /* SearchStringResult.m */,
+				CF3FCC702528A15A003F32BF /* SearchStringData.h */,
+				CF3FCC712528A17C003F32BF /* SearchStringData.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -199,7 +178,6 @@
 			children = (
 				CF43A1ED252804EB00DB8B9D /* StringSearch.app */,
 				CF43A203252804F400DB8B9D /* StringSearchTests.xctest */,
-				CF43A20E252804F400DB8B9D /* StringSearchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,6 +203,7 @@
 		CF43A206252804F400DB8B9D /* StringSearchTests */ = {
 			isa = PBXGroup;
 			children = (
+				CF0646F5252A476100D4ABFA /* test.txt */,
 				CF43A207252804F400DB8B9D /* StringSearchTests.m */,
 				CF43A209252804F400DB8B9D /* Info.plist */,
 			);
@@ -278,24 +257,6 @@
 			productReference = CF43A203252804F400DB8B9D /* StringSearchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CF43A20D252804F400DB8B9D /* StringSearchUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF43A21D252804F400DB8B9D /* Build configuration list for PBXNativeTarget "StringSearchUITests" */;
-			buildPhases = (
-				CF43A20A252804F400DB8B9D /* Sources */,
-				CF43A20B252804F400DB8B9D /* Frameworks */,
-				CF43A20C252804F400DB8B9D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF43A210252804F400DB8B9D /* PBXTargetDependency */,
-			);
-			name = StringSearchUITests;
-			productName = StringSearchUITests;
-			productReference = CF43A20E252804F400DB8B9D /* StringSearchUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -309,10 +270,6 @@
 						CreatedOnToolsVersion = 11.7;
 					};
 					CF43A202252804F400DB8B9D = {
-						CreatedOnToolsVersion = 11.7;
-						TestTargetID = CF43A1EC252804EB00DB8B9D;
-					};
-					CF43A20D252804F400DB8B9D = {
 						CreatedOnToolsVersion = 11.7;
 						TestTargetID = CF43A1EC252804EB00DB8B9D;
 					};
@@ -333,7 +290,6 @@
 			targets = (
 				CF43A1EC252804EB00DB8B9D /* StringSearch */,
 				CF43A202252804F400DB8B9D /* StringSearchTests */,
-				CF43A20D252804F400DB8B9D /* StringSearchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -353,13 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF43A20C252804F400DB8B9D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CF0646F6252A476200D4ABFA /* test.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +327,7 @@
 				CF3FCC942528CCFD003F32BF /* RtfFileHandler.m in Sources */,
 				CFF600A52528FE28005A24FD /* DocxFileHandler.m in Sources */,
 				CF3FCC842528AF92003F32BF /* FileTypeHandler.m in Sources */,
-				CF3FCC722528A17C003F32BF /* SearchStringResult.m in Sources */,
+				CF3FCC722528A17C003F32BF /* SearchStringData.m in Sources */,
 				CF3FCC8F2528C34D003F32BF /* FileHandleOperation.m in Sources */,
 				CFF600A82529084B005A24FD /* DocFileHandler.m in Sources */,
 				CF43A22325280B0F00DB8B9D /* MainViewController.m in Sources */,
@@ -396,23 +346,8 @@
 				CF3FCC852528AF92003F32BF /* FileTypeHandler.m in Sources */,
 				CF3FCC7A2528A286003F32BF /* FileUtil.m in Sources */,
 				CF43A208252804F400DB8B9D /* StringSearchTests.m in Sources */,
-				CF3FCC732528A17C003F32BF /* SearchStringResult.m in Sources */,
+				CF3FCC732528A17C003F32BF /* SearchStringData.m in Sources */,
 				CF3FCC952528CCFD003F32BF /* RtfFileHandler.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF43A20A252804F400DB8B9D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF3FCC812528ACCB003F32BF /* FileHandlingManager.m in Sources */,
-				CF3FCC8C2528B1BC003F32BF /* TextFileHandler.m in Sources */,
-				CF3FCC912528C34D003F32BF /* FileHandleOperation.m in Sources */,
-				CF3FCC862528AF92003F32BF /* FileTypeHandler.m in Sources */,
-				CF3FCC7B2528A286003F32BF /* FileUtil.m in Sources */,
-				CF43A213252804F400DB8B9D /* StringSearchUITests.m in Sources */,
-				CF3FCC742528A17C003F32BF /* SearchStringResult.m in Sources */,
-				CF3FCC962528CCFD003F32BF /* RtfFileHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,11 +358,6 @@
 			isa = PBXTargetDependency;
 			target = CF43A1EC252804EB00DB8B9D /* StringSearch */;
 			targetProxy = CF43A204252804F400DB8B9D /* PBXContainerItemProxy */;
-		};
-		CF43A210252804F400DB8B9D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF43A1EC252804EB00DB8B9D /* StringSearch */;
-			targetProxy = CF43A20F252804F400DB8B9D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -590,7 +520,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = StringSearchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -609,7 +539,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = StringSearchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -621,40 +551,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sdt.stringsearch.StringSearchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StringSearch.app/Contents/MacOS/StringSearch";
-			};
-			name = Release;
-		};
-		CF43A21E252804F400DB8B9D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = StringSearchUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sdt.stringsearch.StringSearchUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = StringSearch;
-			};
-			name = Debug;
-		};
-		CF43A21F252804F400DB8B9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = StringSearchUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sdt.stringsearch.StringSearchUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = StringSearch;
 			};
 			name = Release;
 		};
@@ -684,15 +580,6 @@
 			buildConfigurations = (
 				CF43A21B252804F400DB8B9D /* Debug */,
 				CF43A21C252804F400DB8B9D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CF43A21D252804F400DB8B9D /* Build configuration list for PBXNativeTarget "StringSearchUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF43A21E252804F400DB8B9D /* Debug */,
-				CF43A21F252804F400DB8B9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

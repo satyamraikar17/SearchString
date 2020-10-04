@@ -49,7 +49,7 @@
     {
         FileTypeHandler* fileTypeHandler =  [[FileTypeHandler alloc] initWithFileType:[FileUtil extenstion:file] filePath:file searchString:searchString];
         
-        FileHandleOperation *operation = [[FileHandleOperation alloc] initWithFileHandler:fileTypeHandler error:error callBack:^(SearchStringResult *result, NSError **error) {
+        FileHandleOperation *operation = [[FileHandleOperation alloc] initWithFileHandler:fileTypeHandler error:error callBack:^(SearchStringData *result, NSError **error) {
                 [self.delegate occurrences:result error:error];
         }
     ];

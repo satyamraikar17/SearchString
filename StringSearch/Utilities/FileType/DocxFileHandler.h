@@ -12,10 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DocxFileHandler : FileTypeHandler
 
-@property(atomic, strong) SearchStringResult *result;
+@property(atomic, strong) SearchStringData *result;
 
 -(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString;
--(SearchStringResult *)occurrence:(NSError**)error;
+-(SearchStringData *)occurrence:(NSError**)error;
 +(NSString *) getExtention;
 
 @end

@@ -15,15 +15,15 @@
 }
 
 -(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString {
-    self.result = [[SearchStringResult alloc] initWithFilePath:path occurrences:@"0" searchString:searchString];
+    self.data = [[SearchStringData alloc] initWithFilePath:path occurrences:@"0" searchString:searchString];
     return self;
 }
 
--(SearchStringResult *)occurrence:(NSError**)error  {
+-(SearchStringData *)occurrence:(NSError**)error  {
 
-    self.result.occurrences = [super countSearchString:self.result options:@{NSDocumentTypeDocumentAttribute: NSPlainTextDocumentType} error:error];
+    self.data.occurrences = [super countSearchString:self.data options:@{NSDocumentTypeDocumentAttribute: NSPlainTextDocumentType} error:error];
     
-    return self.result;
+    return self.data;
 }
 
 @end

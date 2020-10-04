@@ -1,5 +1,5 @@
 //
-//  SearchStringResult.h
+//  SearchStringData.h
 //  Data holder class to containing the occurrence count and other info provided by FileHandler type classes
 //  StringSearch
 //
@@ -10,7 +10,7 @@
 #ifndef SearchStringResult_h
 #define SearchStringResult_h
 
-@interface SearchStringResult : NSObject
+@interface SearchStringData : NSObject
 /*!
    @brief File to search
 */

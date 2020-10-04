@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-#import "SearchStringResult.h"
+#import "SearchStringData.h"
 
 @interface MainViewController ()
 
@@ -33,7 +33,7 @@
     [self.fileManager findStringOccurrencesInFolderWithSearchString:searchString error:&error];
 }
 
--(void)occurrences:(SearchStringResult *)result error:(NSError **)error
+-(void)occurrences:(SearchStringData *)result error:(NSError **)error
 {
     dispatch_async(dispatch_get_main_queue(), ^{
            if (result) {

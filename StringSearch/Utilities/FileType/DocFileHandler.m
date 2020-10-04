@@ -16,11 +16,11 @@
 }
 
 -(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString {
-    self.result = [[SearchStringResult alloc] initWithFilePath:path occurrences:@"0" searchString:searchString];
+    self.result = [[SearchStringData alloc] initWithFilePath:path occurrences:@"0" searchString:searchString];
     return self;
 }
 
--(SearchStringResult *)occurrence:(NSError**)error {
+-(SearchStringData *)occurrence:(NSError**)error {
     self.result.occurrences = [super countSearchString:self.result options:@{NSDocumentTypeDocumentAttribute: NSWebArchiveTextDocumentType} error:error];
     
     return self.result;

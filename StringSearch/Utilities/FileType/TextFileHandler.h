@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TextFileHandler : FileTypeHandler
 
-@property(atomic, strong) SearchStringResult *result;
+@property(atomic, strong) SearchStringData *data;
 
 -(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString;
 
@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 
    @return SearchStringResult  result containing occurrence of search string count
 */
--(SearchStringResult *)occurrence:(NSError**)error;
+-(SearchStringData *)occurrence:(NSError**)error;
 
 /*!
    @brief Used to get extension of a text file

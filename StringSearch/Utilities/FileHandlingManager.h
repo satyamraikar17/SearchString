@@ -8,13 +8,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SearchStringResult.h"
+#import "SearchStringData.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol FileHandlingManagerDelegate <NSObject>
 
--(void)occurrences:(SearchStringResult *)result error:(NSError **)error;
+-(void)occurrences:(SearchStringData *)result error:(NSError **)error;
 
 @end
 

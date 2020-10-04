@@ -8,14 +8,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SearchStringResult.h"
+#import "SearchStringData.h"
 #import <AppKit/NSAttributedString.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol FileTypeHandleProtocol
 @required
-    -(SearchStringResult *)occurrence:(NSError**)error;
+    -(SearchStringData *)occurrence:(NSError**)error;
     -(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString;
 @end
 
@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*!
    @brief Decides the class that will be handling the occurrence calculations based on file type
  */
--(id)initWithFileType:(NSString *)fileType filePath:(NSString *)filePath searchString:(NSString *) searchString;
+-(id)initWithFileType:(NSString *)fileType filePath:(NSString *)filePath searchString:(NSString *)searchString;
 
 /*!
    @brief Used to parse file and calculate occurrences of search string
@@ -42,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 
    @return Nsstring string occurence count in sring format
 */
--(NSString *)countSearchString:(SearchStringResult *)dataHolder options:(NSDictionary *)options error:(NSError **)error;
+-(NSString *)countSearchString:(SearchStringData *)dataHolder options:(NSDictionary *)options error:(NSError **)error;
 
 @end
 

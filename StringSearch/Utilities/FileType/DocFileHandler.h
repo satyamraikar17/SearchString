@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DocFileHandler : FileTypeHandler
 
-@property(atomic, strong) SearchStringResult *result;
+@property(atomic, strong) SearchStringData *result;
 
 -(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString;
 
@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 
    @return SearchStringResult  result containing occurrence of search string count
 */
--(SearchStringResult *)occurrence:(NSError**)error;
+-(SearchStringData *)occurrence:(NSError**)error;
 
 /*!
    @brief Used to get extension of a doc file
