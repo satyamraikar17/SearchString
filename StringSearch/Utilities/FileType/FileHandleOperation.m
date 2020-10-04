@@ -14,7 +14,7 @@
     int try;
 }
 
--(id)initWithFileHandler:(FileTypeHandler *)fileHandler error:(NSError **)error callBack:(void (^)(SearchStringData *result, NSError **))callBack {
+- (id)initWithFileHandler:(FileTypeHandler *)fileHandler error:(NSError **)error callBack:(void (^)(SearchStringData *result, NSError **))callBack {
     self = [super init];
     if (self) {
         callBack1 = [callBack copy];
@@ -24,11 +24,11 @@
     return self;
 }
 
--(BOOL)isConcurrent {
+- (BOOL)isConcurrent {
     return YES;
 }
 
--(void)start {
+- (void)start {
     [self willChangeValueForKey:@"isExecuting"];
     _isExecuting = YES;
     [self didChangeValueForKey:@"isExecuting"];
@@ -47,7 +47,7 @@
     [self finish];
 }
 
--(void)finish
+- (void)finish
 {
     [self willChangeValueForKey:@"isExecuting"];
     [self willChangeValueForKey:@"isFinished"];

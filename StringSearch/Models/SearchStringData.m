@@ -11,7 +11,7 @@
 
 @implementation SearchStringData
 
--(instancetype)initWithFilePath:(NSString *)searchFilePath occurrences:(NSString *)count searchString:(NSString *)searchString {
+- (instancetype)initWithFilePath:(NSString *)searchFilePath occurrences:(NSString *)count searchString:(NSString *)searchString {
     
     self = [super init];
     

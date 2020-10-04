@@ -14,14 +14,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(atomic, strong) SearchStringData *result;
 
--(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString;
+- (id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString;
 
 /*!
    @brief Used to count the occurrence of search string in webarchived doc files
 
    @return SearchStringResult  result containing occurrence of search string count
 */
--(SearchStringData *)occurrence:(NSError**)error;
+- (SearchStringData *)occurrence:(NSError**)error;
 
 /*!
    @brief Used to get extension of a doc file

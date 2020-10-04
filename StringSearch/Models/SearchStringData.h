@@ -26,7 +26,7 @@
 */
 @property(nonatomic, strong) NSString *occurrences;
 
--(instancetype) initWithFilePath:(NSString *)searchFilePath occurrences:(NSString *) count searchString:(NSString *) searchString;
+- (instancetype) initWithFilePath:(NSString *)searchFilePath occurrences:(NSString *) count searchString:(NSString *) searchString;
 
 @end
 

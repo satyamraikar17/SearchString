@@ -15,12 +15,12 @@
     return @"rtf";
 }
 
--(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString {
+- (id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString {
     self.result = [[SearchStringData alloc] initWithFilePath:path occurrences:@"0" searchString:searchString];
     return self;
 }
 
--(SearchStringData *)occurrence:(NSError**)error {
+- (SearchStringData *)occurrence:(NSError**)error {
     self.result.occurrences = [super countSearchString:self.result options:@{NSDocumentTypeDocumentAttribute: NSRTFTextDocumentType} error:error];
     
     return self.result;

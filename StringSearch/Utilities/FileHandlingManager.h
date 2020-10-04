@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol FileHandlingManagerDelegate <NSObject>
 
--(void)occurrences:(SearchStringData *)result error:(NSError **)error;
+- (void)occurrences:(SearchStringData *)result error:(NSError **)error;
 
 @end
 
@@ -32,7 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
  
    @param error NSError reference to error pointer
 */
--(void)findStringOccurrencesInFolderWithSearchString:(NSString *)searchString error:(NSError**)error;
+- (void)findStringOccurrencesInFolderWithSearchString:(NSString *)searchString error:(NSError**)error;
 
 @end
 

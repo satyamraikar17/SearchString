@@ -22,7 +22,7 @@
     self.fileManager.delegate = self;
 }
 
--(IBAction)actionBrowse:(id)sender {
+- (IBAction)actionBrowse:(id)sender {
     
     self.results = [NSMutableArray array];
 
@@ -33,7 +33,7 @@
     [self.fileManager findStringOccurrencesInFolderWithSearchString:searchString error:&error];
 }
 
--(void)occurrences:(SearchStringData *)result error:(NSError **)error
+- (void)occurrences:(SearchStringData *)result error:(NSError **)error
 {
     dispatch_async(dispatch_get_main_queue(), ^{
            if (result) {
@@ -44,11 +44,11 @@
     });
 }
 
--(NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
     return [self.results count];
 }
 
--(NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
+- (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
 
     NSTableCellView* resultView = [tableView makeViewWithIdentifier:tableColumn.identifier owner:self];
     

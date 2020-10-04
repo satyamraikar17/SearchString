@@ -14,8 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(atomic, strong) SearchStringData *result;
 
--(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString;
--(SearchStringData *)occurrence:(NSError**)error;
+- (id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString;
+- (SearchStringData *)occurrence:(NSError**)error;
 +(NSString *) getExtention;
 
 @end

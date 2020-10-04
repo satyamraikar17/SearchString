@@ -15,10 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol FileTypeHandleProtocol
 @optional
-    -(void)updateSearchString:(NSString *)searchString;
+    - (void)updateSearchString:(NSString *)searchString;
 @required
-    -(SearchStringData *)occurrence:(NSError**)error;
-    -(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString;
+    - (SearchStringData *)occurrence:(NSError**)error;
+    - (id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString;
 @end
 
 @interface FileTypeHandler : NSObject <FileTypeHandleProtocol>
@@ -33,7 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*!
    @brief Decides the class that will be handling the occurrence calculations based on file type
  */
--(id)initWithFileType:(NSString *)fileType filePath:(NSString *)filePath searchString:(NSString *)searchString;
+- (id)initWithFileType:(NSString *)fileType filePath:(NSString *)filePath searchString:(NSString *)searchString;
 
 /*!
    @brief Used to parse file and calculate occurrences of search string
@@ -44,7 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
 
    @return Nsstring string occurence count in sring format
 */
--(NSString *)countSearchString:(SearchStringData *)dataHolder options:(NSDictionary *)options error:(NSError **)error;
+- (NSString *)countSearchString:(SearchStringData *)dataHolder options:(NSDictionary *)options error:(NSError **)error;
 
 @end
 

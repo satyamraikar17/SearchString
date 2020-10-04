@@ -17,13 +17,13 @@
 
 @implementation FileHandlingManager
 
--(instancetype)init {
+- (instancetype)init {
     self.fileHandlerQueue = [[NSOperationQueue  alloc] init];
     [self.fileHandlerQueue setMaxConcurrentOperationCount:MAX_QUEUE_COUNT];
     return self;
 }
 
--(void)findStringOccurrencesInFolderWithSearchString:(NSString *)searchString error:(NSError**)error {
+- (void)findStringOccurrencesInFolderWithSearchString:(NSString *)searchString error:(NSError**)error {
     
     if (0 == [searchString length]) {
         NSAlert *alert = [[NSAlert alloc] init];

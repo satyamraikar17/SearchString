@@ -28,7 +28,7 @@
             nil];
 }
 
--(id)initWithFileType:(NSString *)fileType filePath:(NSString *)filePath searchString:(NSString *) searchString {
+- (id)initWithFileType:(NSString *)fileType filePath:(NSString *)filePath searchString:(NSString *) searchString {
     self = nil;
     if ([fileType isEqualToString:[TextFileHandler getExtention]]){
         self = [[TextFileHandler alloc] initWithFilePath:filePath searchString:searchString];
@@ -47,19 +47,19 @@
     return self;
 }
 
--(SearchStringData *)occurrence:(NSError**)error {
+- (SearchStringData *)occurrence:(NSError**)error {
     [NSException raise:NSInternalInconsistencyException
                 format:@"You have not implemented %@ in %@", NSStringFromSelector(_cmd), NSStringFromClass([self class])];
     return nil;
 }
 
--(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString {
+- (id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString {
     [NSException raise:NSInternalInconsistencyException
                 format:@"You have not implemented %@ in %@", NSStringFromSelector(_cmd), NSStringFromClass([self class])];
     return nil;
 }
 
--(NSString *)countSearchString:(SearchStringData *)dataHolder options:(NSDictionary *)options error:(NSError **)error {
+- (NSString *)countSearchString:(SearchStringData *)dataHolder options:(NSDictionary *)options error:(NSError **)error {
      NSData *data = [NSData dataWithContentsOfFile:dataHolder.searchFilePath];
 
         NSAttributedString *attributedContent = [[NSAttributedString alloc] initWithData:data options:options documentAttributes:nil error:error];

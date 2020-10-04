@@ -14,12 +14,12 @@
     return @"txt";
 }
 
--(id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString {
+- (id)initWithFilePath:(NSString *)path searchString:(NSString *)searchString {
     self.data = [[SearchStringData alloc] initWithFilePath:path occurrences:@"0" searchString:searchString];
     return self;
 }
 
--(SearchStringData *)occurrence:(NSError**)error  {
+- (SearchStringData *)occurrence:(NSError**)error  {
 
     self.data.occurrences = [super countSearchString:self.data options:@{NSDocumentTypeDocumentAttribute: NSPlainTextDocumentType} error:error];
     
