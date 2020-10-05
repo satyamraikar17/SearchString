@@ -18,4 +18,6 @@ Result will be shown in tablular format.
 Note: Current version supports DocX, Doc(WebArchived), RTF and Txt files only.
 
 
+Design:
+
 ![Example](uml.svg)
