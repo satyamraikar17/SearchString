@@ -1,5 +1,5 @@
-# SearchString
-Mac OS app to find Search string occurrences in files
+# Search String
+Mac OS app to count Search string occurrences in files
 
 
 Simple Mac OS app to select a folder and iteratre through supported files to find occurrences of given search string in those files.
